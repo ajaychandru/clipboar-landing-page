@@ -1,0 +1,117 @@
+/*global*/
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+.container-fluid {
+    padding: 32px;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 600;
+
+}
+
+p {
+    line-height: 1.75;
+}
+
+ul {
+    list-style-type: none;
+    text-align: start;
+}
+.heading-info {
+
+    padding: 32px 160px;
+}
+
+
+/*title*/
+
+#title {
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+}
+
+
+/*track info*/
+
+.track-info {
+    text-align: start;
+    padding: 90px 90px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.computer-col {
+    padding: 5rem 0
+}
+
+/*workflow section*/
+.logo-img {
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* footer section*/
+.social-media-img {
+    margin: 12px;
+    cursor: pointer;
+}
+
+.social-media-img:hover path {
+    fill: hsl(171, 66%, 44%);
+}
+
+/* responsiveness*/
+@media (max-width:992px) {
+    #title {
+        background-image: url(../images/bg-header-mobile.png);
+    }
+
+    .track-info {
+        text-align: center;
+        padding: 32px 32px;
+    }
+
+    .heading-info {
+
+        padding: 32px 64px;
+    }
+
+    ul {
+        list-style-type: none;
+        text-align: center;
+        padding-left: 0px;
+    }
+   .brand-img{
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+    
+}
+
+@media (max-width:768px) {
+    .heading-info {
+
+        padding: 16px ;
+    }
+
+    .track-info {
+        
+        padding: 16px;;
+    }
+}
